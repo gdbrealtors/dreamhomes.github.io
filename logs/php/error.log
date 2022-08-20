@@ -1,0 +1,146 @@
+[20-Aug-2022 06:40:28 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php on line 129
+[20-Aug-2022 06:40:28 UTC] PHP Stack trace:
+[20-Aug-2022 06:40:28 UTC] PHP   1. {main}() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin-ajax.php:0
+[20-Aug-2022 06:40:28 UTC] PHP   2. do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin-ajax.php:187
+[20-Aug-2022 06:40:28 UTC] PHP   3. WP_Hook->do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:476
+[20-Aug-2022 06:40:28 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:331
+[20-Aug-2022 06:40:28 UTC] PHP   5. OCDI\OneClickDemoImport->after_all_import_data_ajax_callback() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 06:40:28 UTC] PHP   6. OCDI\Helpers::do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\OneClickDemoImport.php:444
+[20-Aug-2022 06:40:28 UTC] PHP   7. do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\Helpers.php:702
+[20-Aug-2022 06:40:28 UTC] PHP   8. WP_Hook->do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:476
+[20-Aug-2022 06:40:28 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:331
+[20-Aug-2022 06:40:28 UTC] PHP  10. OCDI\ImportActions->after_import_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 06:40:28 UTC] PHP  11. OCDI\ImportActions->do_import_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\ImportActions.php:136
+[20-Aug-2022 06:40:28 UTC] PHP  12. OCDI\Helpers::do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\ImportActions.php:152
+[20-Aug-2022 06:40:28 UTC] PHP  13. do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\Helpers.php:702
+[20-Aug-2022 06:40:28 UTC] PHP  14. WP_Hook->do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:476
+[20-Aug-2022 06:40:28 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:331
+[20-Aug-2022 06:40:28 UTC] PHP  16. OSF_Import->after_import_setup_base() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 06:40:28 UTC] PHP  17. OSF_Import->fixelementor() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php:88
+[20-Aug-2022 06:40:28 UTC] PHP  18. json_decode() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php:129
+[20-Aug-2022 06:40:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php on line 234
+[20-Aug-2022 06:40:28 UTC] PHP Stack trace:
+[20-Aug-2022 06:40:28 UTC] PHP   1. {main}() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin-ajax.php:0
+[20-Aug-2022 06:40:28 UTC] PHP   2. do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin-ajax.php:187
+[20-Aug-2022 06:40:28 UTC] PHP   3. WP_Hook->do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:476
+[20-Aug-2022 06:40:28 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:331
+[20-Aug-2022 06:40:28 UTC] PHP   5. OCDI\OneClickDemoImport->after_all_import_data_ajax_callback() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 06:40:28 UTC] PHP   6. OCDI\Helpers::do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\OneClickDemoImport.php:444
+[20-Aug-2022 06:40:28 UTC] PHP   7. do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\Helpers.php:702
+[20-Aug-2022 06:40:28 UTC] PHP   8. WP_Hook->do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:476
+[20-Aug-2022 06:40:28 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:331
+[20-Aug-2022 06:40:28 UTC] PHP  10. OCDI\ImportActions->after_import_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 06:40:28 UTC] PHP  11. OCDI\ImportActions->do_import_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\ImportActions.php:136
+[20-Aug-2022 06:40:28 UTC] PHP  12. OCDI\Helpers::do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\ImportActions.php:152
+[20-Aug-2022 06:40:28 UTC] PHP  13. do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\Helpers.php:702
+[20-Aug-2022 06:40:28 UTC] PHP  14. WP_Hook->do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:476
+[20-Aug-2022 06:40:28 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:331
+[20-Aug-2022 06:40:28 UTC] PHP  16. OSF_Import->after_import_setup_base() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 06:40:28 UTC] PHP  17. OSF_Import->updateElementor() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php:91
+[20-Aug-2022 06:40:28 UTC] PHP  18. OSF_Import->updateElementorData() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php:226
+[20-Aug-2022 06:40:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php on line 234
+[20-Aug-2022 06:40:28 UTC] PHP Stack trace:
+[20-Aug-2022 06:40:28 UTC] PHP   1. {main}() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin-ajax.php:0
+[20-Aug-2022 06:40:28 UTC] PHP   2. do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin-ajax.php:187
+[20-Aug-2022 06:40:28 UTC] PHP   3. WP_Hook->do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:476
+[20-Aug-2022 06:40:28 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:331
+[20-Aug-2022 06:40:28 UTC] PHP   5. OCDI\OneClickDemoImport->after_all_import_data_ajax_callback() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 06:40:28 UTC] PHP   6. OCDI\Helpers::do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\OneClickDemoImport.php:444
+[20-Aug-2022 06:40:28 UTC] PHP   7. do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\Helpers.php:702
+[20-Aug-2022 06:40:28 UTC] PHP   8. WP_Hook->do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:476
+[20-Aug-2022 06:40:28 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:331
+[20-Aug-2022 06:40:28 UTC] PHP  10. OCDI\ImportActions->after_import_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 06:40:28 UTC] PHP  11. OCDI\ImportActions->do_import_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\ImportActions.php:136
+[20-Aug-2022 06:40:28 UTC] PHP  12. OCDI\Helpers::do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\ImportActions.php:152
+[20-Aug-2022 06:40:28 UTC] PHP  13. do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\Helpers.php:702
+[20-Aug-2022 06:40:28 UTC] PHP  14. WP_Hook->do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:476
+[20-Aug-2022 06:40:28 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:331
+[20-Aug-2022 06:40:28 UTC] PHP  16. OSF_Import->after_import_setup_base() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 06:40:28 UTC] PHP  17. OSF_Import->updateElementor() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php:91
+[20-Aug-2022 06:40:28 UTC] PHP  18. OSF_Import->updateElementorData() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php:226
+[20-Aug-2022 06:50:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Core\Kits\Documents\Tabs\Global_Colors' not found in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\elementor\widgets\divider.php:75
+Stack trace:
+#0 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php(307): OSF_Elementor_Divider->add_extra_control(Object(Elementor\Widget_Divider), 'section_divider', Array)
+#1 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1494): do_action('elementor/eleme...', Object(Elementor\Widget_Divider), 'section_divider', Array)
+#4 C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\elementor\includes\widgets\divider.php(534): Elementor\Controls_Stack->end_controls_secti in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\elementor\widgets\divider.php on line 75
+[20-Aug-2022 06:50:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Core\Kits\Documents\Tabs\Global_Colors' not found in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\elementor\widgets\divider.php:75
+Stack trace:
+#0 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php(307): OSF_Elementor_Divider->add_extra_control(Object(Elementor\Widget_Divider), 'section_divider', Array)
+#1 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1494): do_action('elementor/eleme...', Object(Elementor\Widget_Divider), 'section_divider', Array)
+#4 C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\elementor\includes\widgets\divider.php(534): Elementor\Controls_Stack->end_controls_secti in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\elementor\widgets\divider.php on line 75
+[20-Aug-2022 06:51:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Core\Kits\Documents\Tabs\Global_Colors' not found in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\elementor\widgets\divider.php:75
+Stack trace:
+#0 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php(307): OSF_Elementor_Divider->add_extra_control(Object(Elementor\Widget_Divider), 'section_divider', Array)
+#1 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1494): do_action('elementor/eleme...', Object(Elementor\Widget_Divider), 'section_divider', Array)
+#4 C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\elementor\includes\widgets\divider.php(534): Elementor\Controls_Stack->end_controls_secti in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\elementor\widgets\divider.php on line 75
+[20-Aug-2022 06:51:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Core\Kits\Documents\Tabs\Global_Colors' not found in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\elementor\widgets\divider.php:75
+Stack trace:
+#0 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php(307): OSF_Elementor_Divider->add_extra_control(Object(Elementor\Widget_Divider), 'section_divider', Array)
+#1 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1494): do_action('elementor/eleme...', Object(Elementor\Widget_Divider), 'section_divider', Array)
+#4 C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\elementor\includes\widgets\divider.php(534): Elementor\Controls_Stack->end_controls_secti in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\elementor\widgets\divider.php on line 75
+[20-Aug-2022 07:56:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php on line 52
+[20-Aug-2022 07:56:11 UTC] PHP Stack trace:
+[20-Aug-2022 07:56:11 UTC] PHP   1. {main}() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:0
+[20-Aug-2022 07:56:11 UTC] PHP   2. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:10
+[20-Aug-2022 07:56:11 UTC] PHP   3. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin.php:34
+[20-Aug-2022 07:56:11 UTC] PHP   4. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-load.php:50
+[20-Aug-2022 07:56:11 UTC] PHP   5. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-config.php:91
+[20-Aug-2022 07:56:11 UTC] PHP   6. do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-settings.php:576
+[20-Aug-2022 07:56:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:476
+[20-Aug-2022 07:56:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:331
+[20-Aug-2022 07:56:11 UTC] PHP   9. OCDI\OneClickDemoImport->setup_plugin_with_filter_data() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 07:56:11 UTC] PHP  10. OCDI\Helpers::apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\OneClickDemoImport.php:585
+[20-Aug-2022 07:56:11 UTC] PHP  11. apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\Helpers.php:675
+[20-Aug-2022 07:56:11 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:191
+[20-Aug-2022 07:56:11 UTC] PHP  13. OSF_Import->import_files() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 07:56:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php:52) in C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php on line 1421
+[20-Aug-2022 07:56:11 UTC] PHP Stack trace:
+[20-Aug-2022 07:56:11 UTC] PHP   1. {main}() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:0
+[20-Aug-2022 07:56:11 UTC] PHP   2. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:10
+[20-Aug-2022 07:56:11 UTC] PHP   3. auth_redirect() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin.php:99
+[20-Aug-2022 07:56:11 UTC] PHP   4. wp_redirect() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php:1234
+[20-Aug-2022 07:56:11 UTC] PHP   5. header() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php:1421
+[20-Aug-2022 07:56:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php:52) in C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php on line 1424
+[20-Aug-2022 07:56:11 UTC] PHP Stack trace:
+[20-Aug-2022 07:56:11 UTC] PHP   1. {main}() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:0
+[20-Aug-2022 07:56:11 UTC] PHP   2. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:10
+[20-Aug-2022 07:56:11 UTC] PHP   3. auth_redirect() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin.php:99
+[20-Aug-2022 07:56:11 UTC] PHP   4. wp_redirect() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php:1234
+[20-Aug-2022 07:56:11 UTC] PHP   5. header() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php:1424
+[20-Aug-2022 07:56:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php on line 52
+[20-Aug-2022 07:56:14 UTC] PHP Stack trace:
+[20-Aug-2022 07:56:14 UTC] PHP   1. {main}() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:0
+[20-Aug-2022 07:56:14 UTC] PHP   2. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:10
+[20-Aug-2022 07:56:14 UTC] PHP   3. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin.php:34
+[20-Aug-2022 07:56:14 UTC] PHP   4. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-load.php:50
+[20-Aug-2022 07:56:14 UTC] PHP   5. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-config.php:91
+[20-Aug-2022 07:56:14 UTC] PHP   6. do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-settings.php:576
+[20-Aug-2022 07:56:14 UTC] PHP   7. WP_Hook->do_action() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:476
+[20-Aug-2022 07:56:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:331
+[20-Aug-2022 07:56:14 UTC] PHP   9. OCDI\OneClickDemoImport->setup_plugin_with_filter_data() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 07:56:14 UTC] PHP  10. OCDI\Helpers::apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\OneClickDemoImport.php:585
+[20-Aug-2022 07:56:14 UTC] PHP  11. apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\vendors\one-click-demo-import\inc\Helpers.php:675
+[20-Aug-2022 07:56:14 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\plugin.php:191
+[20-Aug-2022 07:56:14 UTC] PHP  13. OSF_Import->import_files() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\class-wp-hook.php:307
+[20-Aug-2022 07:56:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php:52) in C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php on line 1421
+[20-Aug-2022 07:56:14 UTC] PHP Stack trace:
+[20-Aug-2022 07:56:14 UTC] PHP   1. {main}() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:0
+[20-Aug-2022 07:56:14 UTC] PHP   2. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:10
+[20-Aug-2022 07:56:14 UTC] PHP   3. auth_redirect() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin.php:99
+[20-Aug-2022 07:56:14 UTC] PHP   4. wp_redirect() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php:1234
+[20-Aug-2022 07:56:14 UTC] PHP   5. header() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php:1421
+[20-Aug-2022 07:56:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\offic\Local Sites\dream-homes\app\public\wp-content\plugins\rehomes-core\inc\class-import.php:52) in C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php on line 1424
+[20-Aug-2022 07:56:14 UTC] PHP Stack trace:
+[20-Aug-2022 07:56:14 UTC] PHP   1. {main}() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:0
+[20-Aug-2022 07:56:14 UTC] PHP   2. require_once() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\index.php:10
+[20-Aug-2022 07:56:14 UTC] PHP   3. auth_redirect() C:\Users\offic\Local Sites\dream-homes\app\public\wp-admin\admin.php:99
+[20-Aug-2022 07:56:14 UTC] PHP   4. wp_redirect() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php:1234
+[20-Aug-2022 07:56:14 UTC] PHP   5. header() C:\Users\offic\Local Sites\dream-homes\app\public\wp-includes\pluggable.php:1424
